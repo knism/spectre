@@ -1,4 +1,4 @@
-package org.knism.spectre.window
+package org.knism.spectre.window.viewport
 
 import org.knism.spectre.app.App
 import org.knism.spectre.rendering.engine.RenderingEngine

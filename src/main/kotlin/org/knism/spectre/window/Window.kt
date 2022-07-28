@@ -3,6 +3,7 @@ package org.knism.spectre.window
 import org.knism.spectre.app.App
 import org.knism.spectre.core.units.Size
 import org.knism.spectre.execptions.WindowCouldNotBeOpenedException
+import org.knism.spectre.window.viewport.Viewport
 import org.lwjgl.glfw.GLFW.*
 
 /**
@@ -15,10 +16,10 @@ import org.lwjgl.glfw.GLFW.*
  *     render application
  */
 class Window internal constructor(
-    private val size: Size,
-    private val title: String,
-    private val targetFPS: Long,
-    private val viewport: Viewport,
+    val size: Size,
+    val title: String,
+    val targetFPS: Long,
+    val viewport: Viewport<*>,
 ) {
 
     private val windowRef: Long

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+        width="210mm"
+        height="297mm"
+        viewBox="0 0 210 297"
+        version="1.1"
+        id="svg5"
+        inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+        sodipodi:docname="Spectre.svg"
+        inkscape:export-filename="Spectre.png"
+        inkscape:export-xdpi="300"
+        inkscape:export-ydpi="300"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <sodipodi:namedview
+            id="namedview7"
+            pagecolor="#505050"
+            bordercolor="#eeeeee"
+            borderopacity="1"
+            inkscape:showpageshadow="0"
+            inkscape:pageopacity="0"
+            inkscape:pagecheckerboard="0"
+            inkscape:deskcolor="#505050"
+            inkscape:document-units="mm"
+            showgrid="false"
+            inkscape:lockguides="true"
+            inkscape:zoom="1.2938725"
+            inkscape:cx="165.39497"
+            inkscape:cy="643.80378"
+            inkscape:window-width="2560"
+            inkscape:window-height="1411"
+            inkscape:window-x="0"
+            inkscape:window-y="0"
+            inkscape:window-maximized="1"
+            inkscape:current-layer="layer1"/>
+    <defs
+            id="defs2">
+        <rect
+                x="461.1023"
+                y="517.32631"
+                width="113.73036"
+                height="81.632295"
+                id="rect2495"/>
+    </defs>
+    <g
+            inkscape:label="Layer 1"
+            inkscape:groupmode="layer"
+            id="layer1">
+        <g
+                id="g1037"
+                transform="translate(16.798664)"
+                inkscape:export-filename="g1037.png"
+                inkscape:export-xdpi="103"
+                inkscape:export-ydpi="103">
+            <path
+                    id="path335"
+                    style="fill:#343434;fill-opacity:1;stroke:#13f5ff;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+                    d="m 49.039816,148.5 a 16,16 0 0 1 -16,16 16,16 0 0 1 -16,-16 16,16 0 0 1 16,-16 16,16 0 0 1 16,16 z"/>
+            <text
+                    xml:space="preserve"
+                    transform="matrix(2.2778136,0,0,2.2778136,-1026.5605,-1046.02)"
+                    id="text2493"
+                    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:Aquire;-inkscape-font-specification:'Aquire, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect2495);display:inline;fill:#343434;fill-opacity:1;stroke:#13f5ff;stroke-width:0.131705;stroke-dasharray:none;stroke-opacity:1"><tspan
+           x="461.10156"
+           y="528.38715"
+           id="tspan305">S<tspan
+                    style="font-size:7.43403px"
+                    id="tspan303"> </tspan>PECTRE</tspan></text>
+        </g>
+    </g>
+</svg>

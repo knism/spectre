@@ -1,4 +1,4 @@
-package org.knism.spectre.app.objects.rendering
+package org.knism.spectre.rendering.renderables
 
 import org.knism.spectre.app.objects.components.SpectreComponent
 import org.knism.spectre.rendering.engine.RenderingEngine

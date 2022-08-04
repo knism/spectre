@@ -1,7 +1,7 @@
 package org.knism.spectre.rendering.renderer
 
-import org.knism.spectre.app.objects.rendering.IRenderable
 import org.knism.spectre.rendering.engine.Vulkan
+import org.knism.spectre.rendering.renderables.IRenderable
 
 class VulkanRenderer : IRenderer<Vulkan> {
     override fun render(renderable: IRenderable<Vulkan>) {

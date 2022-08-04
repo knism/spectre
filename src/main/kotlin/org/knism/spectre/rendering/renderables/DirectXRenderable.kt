@@ -1,8 +1,9 @@
-package org.knism.spectre.app.objects.rendering
+package org.knism.spectre.rendering.renderables
 
 import org.knism.spectre.Spectre
 import org.knism.spectre.rendering.engine.DirectX
 import org.knism.spectre.rendering.renderer.DirectXRenderer
+import org.knism.spectre.rendering.shaders.shader.DirectXShader
 import org.knism.spectre.window.viewport.Viewport
 
 /**
@@ -15,7 +16,14 @@ class DirectXRenderable : IRenderable<DirectX> {
 
     private val renderer: DirectXRenderer = Spectre.di.get(DirectXRenderer::class)
 
+
+    private lateinit var shader: DirectXShader
+
+    fun setShader(shader: DirectXShader) {
+        this.shader = shader
+    }
+
     override fun render() {
-        TODO("Not yet implemented")
+        renderer.render(this)
     }
 }

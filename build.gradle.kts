@@ -34,6 +34,7 @@ dependencies {
     implementation("org.joml", "joml", jomlVersion)
 
     implementation(kotlin("reflect"))
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 }
 
 tasks.test {

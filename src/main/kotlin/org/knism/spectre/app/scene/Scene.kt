@@ -3,9 +3,9 @@ package org.knism.spectre.app.scene
 import org.knism.spectre.app.SpectreObject
 import org.knism.spectre.app.events.OnUpdate
 import org.knism.spectre.app.objects.GameObject
-import org.knism.spectre.app.objects.rendering.IRenderable
 import org.knism.spectre.core.SpectreType
-import org.knism.spectre.rendering.engine.OpenGL
+import org.knism.spectre.rendering.camera.SpectreCamera
+import org.knism.spectre.rendering.renderables.IRenderable
 import org.knism.spectre.window.Window
 
 /**
@@ -23,15 +23,14 @@ class Scene : SpectreObject(SpectreType.SCENE) {
     val spectreObjects: Collection<SpectreObject>
         get() = objects.toList()
 
-    var camera: SpectreCamera<*> = SpectreCamera<OpenGL>()
+    lateinit var camera: SpectreCamera<*>
         private set
 
     /** called every update frame by the [Window] */
     fun update() {
         objects.filterIsInstance<GameObject>()
             .forEach {
-                it.getAllComponents()
-                    .filterIsInstance<OnUpdate>().forEach(OnUpdate::onUpdate)
+                it.components.filterIsInstance<OnUpdate>().forEach(OnUpdate::onUpdate)
             }
     }
 

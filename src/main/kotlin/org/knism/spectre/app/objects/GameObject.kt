@@ -21,6 +21,4 @@ class GameObject : SpectreObject(SpectreType.ENTITY) {
 
     inline fun <reified T : SpectreComponent> getComponentOf(): T = components.filterIsInstance<T>().first()
     inline fun <reified T : SpectreComponent> getComponentsOf(): Collection<T> = components.filterIsInstance<T>()
-    fun getAllComponents(): Collection<SpectreComponent> = components
-
 }

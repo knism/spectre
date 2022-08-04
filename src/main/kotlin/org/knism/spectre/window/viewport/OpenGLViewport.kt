@@ -4,6 +4,7 @@ import org.knism.spectre.app.App
 import org.knism.spectre.core.units.Offset
 import org.knism.spectre.core.units.Size
 import org.knism.spectre.rendering.engine.OpenGL
+import org.knism.spectre.window.WindowTimer
 import org.lwjgl.opengl.GL
 import org.lwjgl.opengl.GL33
 import kotlin.properties.Delegates
